@@ -10,5 +10,16 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils',
     '@nuxt/ui'
-  ]
+  ],
+
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio',
+      gitInfo: {
+        name: 'beatfolio',
+        owner: 'Emmanuel Van Dick',
+        url: 'https://github.com/emmanuel-vandyk/beatfolio.git'
+      }
+    }
+  }
 })
